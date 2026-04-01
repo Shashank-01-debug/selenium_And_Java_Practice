@@ -7,6 +7,7 @@ public class JPMorgan_CodingQue {
 	public static void main(String[] args) {
 		
 		int[] input = {1,3,0,5,7,0,9,8,0};
+		//output={1,3,5,7.8,9,0,0}
 		int index =0;
 		
 		for(int i:input) {
