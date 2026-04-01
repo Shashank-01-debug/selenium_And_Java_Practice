@@ -24,11 +24,8 @@ public static void main(String[] args) throws IOException  {
      for(WebElement element:linksList) {
     	 
     	 String url= element.getDomAttribute("href");
-    	 checkBrokenLink(url);
-    	 
-     }
-    
-    	
+    	 checkBrokenLink(url);   	 
+     } 	
 }
 
 private static void checkBrokenLink(String url) throws IOException {
@@ -56,13 +53,6 @@ private static void checkBrokenLink(String url) throws IOException {
 		
 		System.err.println("caught the exception"+e.getMessage());
 	}
-	
-	
-	
-	
-	
-	
-	
 	
 }
 
